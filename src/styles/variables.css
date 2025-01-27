@@ -1,0 +1,54 @@
+:root {
+    /* https://modernfontstacks.com/  geometric humanist font */
+    --font-system: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    /* monospace code font */
+    --font-system-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    --font-system-code-size: 0.8rem;
+
+    --background-color: #242424;
+
+    --base-color: #ffffffde;
+    --text-color-mute: hsl(0, 0%, 40%);
+
+    --link-color: #646cff;
+    --link-color-hover: #535bf2;
+
+    --nav-separator-color: goldenrod;
+    --nav-background-color: hsl(50, 50%, 95%);
+
+    --border-color: var(--base-color);
+
+    --code-text-color: var(--base-color);
+    --code-text-color-bg: inherit;
+
+    --panel-title-color: var(--base-color);
+    --panel-title-color-bg: cornsilk;
+
+
+    /* Sizes */
+    --base-size: 1rem;
+    --size-scale-300: calc(var(--base-size) * 0.8);
+    --size-scale-400: var(--base-size);
+    --size-scale-500: calc(var(--base-size) * 1.33);
+    --size-scale-600: calc(var(--base-size) * 1.77);
+    --size-scale-700: calc(var(--base-size) * 2.4);
+
+    /* Colours */
+    --color-primary: #231651;
+    --color-secondary: #ff8484;
+    --color-secondary-shade: #ff5151;
+    --color-tertiary: #2c988c;
+    --color-tertiary-glare: #d6fff6;
+    --color-quaternary: #2374ab;
+    --color-light: #fafafa;
+    --color-light-shade: #eeeeee;
+    --color-grey: #c4c4c4;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --base-color: #213547;
+    --background-color: #ffffff;
+  }
+}

@@ -1,0 +1,11 @@
+.stack > * + * {
+  margin-block-start: var(--flow-space, 1rem);
+}
+
+.stack-large > * + * {
+  margin-block-start: 3rem;
+}
+
+.stack-small > * + * {
+  margin-block-start: 0.5rem;
+}

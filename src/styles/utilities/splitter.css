@@ -1,0 +1,19 @@
+
+.splitter > :last-child {
+    margin-top: var(--size-scale-500);
+}
+
+@media screen and (min-width: 768px) {
+    .splitter {
+        display: flex;
+    }
+    .splitter > * {
+        flex-grow: 1;
+    }
+        
+    .splitter > :last-child {
+        margin-top: 0;
+        margin-left: var(--size-scale-500);
+        min-width: 22rem;
+    }
+}
