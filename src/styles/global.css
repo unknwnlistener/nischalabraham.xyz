@@ -10,6 +10,8 @@
 @import 'compositions/navbar.css';
 
 @import 'blocks/icons.css';
+@import 'blocks/experience-block.css';
+@import 'blocks/pills.css';
 
 :root {
   font-family: var(--font-system);

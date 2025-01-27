@@ -1,0 +1,12 @@
+.experience-block > :first-child {
+    color: gray;
+    text-transform: uppercase;
+    font-size: var(--size-scale-300);
+}
+
+@media screen and (min-width: 768px) {
+    .experience-block {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
