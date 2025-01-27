@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="409" height="409">
+    <defs>
+        <linearGradient id="b" x1="20" x2="780" y1="20" y2="20"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#0097b2" />
+            <stop offset="1" stop-color="#7ed957" />
+        </linearGradient>
+    </defs>
+    <mask id="c">
+        <circle cx="400" cy="400" r="380" fill="#fff" />
+        <g transform="translate(10)">
+            <rect id="a" width="110" height="350" x="100" y="210" rx="20" />
+            <use x="-100" href="#a" transform="skewX(27)" />
+            <use x="190" href="#a" />
+            <use x="450" href="#a" transform="skewX(-20)" />
+            <use x="300" href="#a" transform="skewX(20)" />
+        </g>
+    </mask>
+    <circle cx="400" cy="400" r="380" fill="url(#b)" mask="url(#c)"
+        style="fill:url(#b)"
+        transform="translate(-10.763 -10.763)scale(.53816)" />
+</svg>
