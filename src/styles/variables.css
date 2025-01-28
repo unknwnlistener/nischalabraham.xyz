@@ -27,8 +27,8 @@
     --size-scale-700: calc(var(--base-size) * 2.4);
 
     /* Colours */
-    --color-primary: #0097b2;
-    --color-secondary: #7ed957;
+    --color-primary: rgb(126, 217, 87);
+    --color-secondary: rgb(0, 151, 178);
     --color-secondary-shade: #ff5151;
     --color-tertiary: #2c988c;
     --color-tertiary-glare: #d6fff6;
@@ -43,5 +43,7 @@
   :root {
     --base-color: #213547;
     --background-color: #ffffff;
+    --color-secondary: rgb(126, 217, 87);
+    --color-primary: rgb(0, 151, 178);
   }
 }
