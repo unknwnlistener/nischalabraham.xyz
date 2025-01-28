@@ -12,6 +12,7 @@
 @import 'compositions/navbar.css';
 
 @import 'blocks/icons.css';
+@import 'blocks/cards.css';
 @import 'blocks/pills.css';
 @import 'blocks/experience-block.css';
 @import 'blocks/projects-block.css';

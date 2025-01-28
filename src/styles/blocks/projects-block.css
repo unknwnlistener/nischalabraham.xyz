@@ -7,8 +7,12 @@
 
 .project-block > * {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
+.project-block > h3,p {
+    align-self: self-start;
+}
 .project-block > ul {
     align-self: self-end;
 }

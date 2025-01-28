@@ -1,5 +1,6 @@
 import githubIcon from "@/assets/github.svg";
 import arrowUpRightSquare from "@/assets/arrow-up-right-from-square.svg";
+import FancyCard from "@/components/FancyCard";
 
 export default function Projects() {
     const ProjectListItem = ({
@@ -13,7 +14,7 @@ export default function Projects() {
             return techList.split(",").map((el) => el.trim());
         };
         return (
-            <li className="project-block box">
+            <FancyCard className="project-block">
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <ul className="cluster">
@@ -49,13 +50,13 @@ export default function Projects() {
                         </li>
                     ))}
                 </ul>
-            </li>
+            </FancyCard>
         );
     };
     return (
         <article>
             <h2>Stuff I've worked on</h2>
-            <ul className="grid">
+            <div className="flex-grid cards-block">
                 <ProjectListItem
                     title={"nischalabraham.xyz"}
                     description={
@@ -73,7 +74,7 @@ export default function Projects() {
                     githubLink="https://github.com/unknwnlistener/roadmap-story-feature"
                     externalLink="https://roadmap-story-feature.vercel.app"
                 />
-            </ul>
+            </div>
         </article>
     );
 }
