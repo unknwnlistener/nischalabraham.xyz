@@ -5,6 +5,11 @@
     width: 100%;
 }
 
-.navbar img {
+.navbar :first-child {
     height: 50px;
 }
+.navbar :last-child {
+    right: 0;
+}
+
+

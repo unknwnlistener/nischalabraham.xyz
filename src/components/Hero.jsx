@@ -9,7 +9,6 @@ export default function Hero() {
                     and user-centric applications using modern web technologies.
                 </p>
             </div>
-            <img src={codingIllustration} alt="" />
         </section>
     );
 }

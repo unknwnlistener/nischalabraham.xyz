@@ -1,0 +1,14 @@
+.project-block {
+    display: grid;
+    grid-template-rows: min-content max-content 1fr;
+    align-items: start;
+    gap: 1rem;
+}
+
+.project-block > * {
+    margin-top: 0;
+}
+
+.project-block > ul {
+    align-self: self-end;
+}

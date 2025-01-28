@@ -19,7 +19,7 @@
 }
 
 .hero-layout img {
-    width: clamp(20rem, 60vw,30rem);
+    width: clamp(fit-content, 30vw,40rem);
 }
 
 @media screen and (min-width: 960px){

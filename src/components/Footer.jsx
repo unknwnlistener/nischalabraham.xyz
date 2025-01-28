@@ -11,7 +11,7 @@ export default function Footer() {
                     <a
                         href="https://www.github.com/unknwnlistener"
                         title="Github"
-                        className="icon link"
+                        className="icon monochrome"
                     >
                         <img src={githubIcon} alt="" />
                         Github
@@ -21,7 +21,7 @@ export default function Footer() {
                     <a
                         href="https://www.linkedin.com/in/nischalabraham"
                         title="LinkedIn"
-                        className="icon link"
+                        className="icon monochrome"
                     >
                         <img src={linkedinIcon} alt="" />
                         LinkedIn
@@ -31,7 +31,7 @@ export default function Footer() {
                     <a
                         href="https://x.com/unknwnlistener"
                         title="Twitter/X"
-                        className="icon link"
+                        className="icon monochrome"
                     >
                         <img src={twitterIcon} alt="" />
                         Twitter/X

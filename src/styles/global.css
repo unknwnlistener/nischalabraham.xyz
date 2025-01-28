@@ -5,13 +5,17 @@
 @import 'utilities/grid.css';
 @import 'utilities/cluster.css';
 @import 'utilities/center.css';
+@import 'utilities/box.css';
+@import 'utilities/left-align.css';
 
 @import 'compositions/hero-layout.css';
 @import 'compositions/navbar.css';
 
 @import 'blocks/icons.css';
-@import 'blocks/experience-block.css';
 @import 'blocks/pills.css';
+@import 'blocks/experience-block.css';
+@import 'blocks/projects-block.css';
+@import 'blocks/skills-block.css';
 
 :root {
   font-family: var(--font-system);

@@ -1,4 +1,5 @@
 import resume from "@/assets/nischal-abraham-resume.pdf";
+import arrowUpRight from "@/assets/arrow-up-right.svg";
 
 export default function Experience() {
     const ExperienceListItem = ({
@@ -73,13 +74,14 @@ export default function Experience() {
                     description={
                         "Improved report access time for publishers by 32% by optimizing Excel and CSV file imports, implementing custom parsing algorithms, and utilizing advanced data processing techniques. Successfully transitioned CI technology from Apache SVN to Git, leading training sessions and creating documentation that reduced collaborative errors."
                     }
-                    skillsList={
-                        "HTML, CSS, JavaScript, Angular, ASP.NET MVC, Git"
-                    }
+                    skillsList={"HTML, CSS, JavaScript, Angular, ASP.NET, Git"}
                 />
             </ul>
-            <aside>
-                <a href={resume}>View Full Resume</a>
+            <aside className="left-align">
+                <a className="icon row monochrome" href={resume}>
+                    View Full Resume
+                    <img src={arrowUpRight} alt="" />
+                </a>
             </aside>
         </article>
     );

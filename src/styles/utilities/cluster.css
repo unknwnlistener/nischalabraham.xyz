@@ -5,3 +5,7 @@
     gap: var(--custom-gap, 0.5rem);
     width: 100%;
 }
+
+.cluster.spread {
+    justify-content: space-evenly;
+}

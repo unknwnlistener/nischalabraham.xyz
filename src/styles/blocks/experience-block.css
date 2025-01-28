@@ -1,5 +1,4 @@
 .experience-block > :first-child {
-    color: gray;
     text-transform: uppercase;
     font-size: var(--size-scale-300);
 }
