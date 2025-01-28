@@ -8,21 +8,14 @@
     --background-color: #242424;
 
     --base-color: #ffffffde;
-    --text-color-mute: hsl(0, 0%, 40%);
 
     --link-color: #646cff;
     --link-color-hover: #535bf2;
 
-    --nav-separator-color: goldenrod;
-    --nav-background-color: hsl(50, 50%, 95%);
+    --box-outer-radius: 10px;
+    --box-padding: 1px;
+    --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
 
-    --border-color: var(--base-color);
-
-    --code-text-color: var(--base-color);
-    --code-text-color-bg: inherit;
-
-    --panel-title-color: var(--base-color);
-    --panel-title-color-bg: cornsilk;
 
 
     /* Sizes */
@@ -34,8 +27,8 @@
     --size-scale-700: calc(var(--base-size) * 2.4);
 
     /* Colours */
-    --color-primary: #231651;
-    --color-secondary: #ff8484;
+    --color-primary: #0097b2;
+    --color-secondary: #7ed957;
     --color-secondary-shade: #ff5151;
     --color-tertiary: #2c988c;
     --color-tertiary-glare: #d6fff6;
