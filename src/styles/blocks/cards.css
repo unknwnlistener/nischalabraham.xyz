@@ -1,8 +1,8 @@
 :root {
-    --bg-color-values: 255,255,255;
+    --bg-color-values: 126,217,87;
     
     @media (prefers-color-scheme: light) {
-    --bg-color-values: 0,0,0;
+    --bg-color-values: 0,151,178;
     }
 }
 .card {
