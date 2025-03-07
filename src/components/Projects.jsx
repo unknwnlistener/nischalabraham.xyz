@@ -11,7 +11,10 @@ export default function Projects() {
         externalLink = "",
     }) => {
         const getSkillsAsList = () => {
-            return techList.split(",").map((el) => el.trim());
+            return techList
+                .split(",")
+                .map((el) => el.trim())
+                .filter((el) => el);
         };
         return (
             <FancyCard className="project-block">
@@ -73,6 +76,15 @@ export default function Projects() {
                     techList={"HTML, CSS, Typescript,React, Git"}
                     githubLink="https://github.com/unknwnlistener/roadmap-story-feature"
                     externalLink="https://roadmap-story-feature.vercel.app"
+                />
+                <ProjectListItem
+                    title={"Kanban Task Manager"}
+                    description={
+                        "Kanban task management board built with Next.js"
+                    }
+                    techList={"Next.js, React Redux, Typescript "}
+                    githubLink="https://github.com/unknwnlistener/kanban-task-manager"
+                    externalLink="https://kanban-task-manager-nu.vercel.app/"
                 />
             </div>
         </article>
