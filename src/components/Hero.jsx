@@ -1,4 +1,3 @@
-import codingIllustration from "@/assets/undraw_coding.svg";
 export default function Hero() {
     return (
         <section className="hero-layout">

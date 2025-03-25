@@ -1,4 +1,4 @@
-export default function Sun({ darkMode }) {
+export default function Sun({ darkMode = false }) {
     return (
         <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
             <title>Theme toggle</title>
