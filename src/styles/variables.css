@@ -9,6 +9,8 @@
 
     --base-color: #ffffffde;
 
+    --base-color-rgb: 255, 255, 255;
+
     --link-color: #646cff;
     --link-color-hover: #535bf2;
 
@@ -38,12 +40,25 @@
     --color-grey: #c4c4c4;
 }
 
+body:not(.dark-mode) {
+  --base-color: #213547;
+  --background-color: #ffffff;
+  --color-secondary: rgb(126, 217, 87);
+  --color-primary: rgb(0, 151, 178);
+}
 
 @media (prefers-color-scheme: light) {
   :root {
     --base-color: #213547;
+    --base-color-rgb: 33, 53, 71;
     --background-color: #ffffff;
     --color-secondary: rgb(126, 217, 87);
     --color-primary: rgb(0, 151, 178);
+  }
+
+  .dark-mode {
+    --background-color: #242424;
+    --base-color: #ffffffde;
+    --base-color-rgb: 255, 255, 255;
   }
 }

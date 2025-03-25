@@ -1,0 +1,18 @@
+.dark-mode-toggle {
+    cursor: pointer;
+    border: var(--background-color);
+    border-radius: 100%;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    background-color: inherit;
+    align-self: center;
+    padding: 0.5rem;
+    line-height: 0;
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(var(--base-color-rgb), 0.1);
+}
+
+.dark-mode-toggle:active {
+    transform: scale(0.95);
+}

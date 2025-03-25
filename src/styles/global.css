@@ -17,6 +17,7 @@
 @import 'blocks/experience-block.css';
 @import 'blocks/projects-block.css';
 @import 'blocks/skills-block.css';
+@import 'blocks/theme-toggle-button.css';
 
 :root {
   font-family: var(--font-system);
@@ -34,8 +35,10 @@
 body {
   line-height: 1.5;
   overflow-x: hidden;
+  padding: 1rem;
   padding-bottom: var(--size-scale-600);
-
+  background-color: var(--background-color);
+  color: var(--base-color);
 }
 
 h1,
@@ -75,10 +78,6 @@ th {
   text-align: left;
 }
 
-:focus {
-  outline: 2px dotted;
-  outline-offset: 0.25rem;
-}
 
 @media (min-width: 960px) {
   :root {
