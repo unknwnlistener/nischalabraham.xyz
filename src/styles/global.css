@@ -21,9 +21,9 @@
 
 :root {
   font-family: var(--font-system);
-  
+
   color-scheme: light dark;
-  color: var(--base-color);
+  color: var(--foreground-color);
   background-color: var(--background-color);
 
   font-synthesis: none;
@@ -38,7 +38,7 @@ body {
   padding: 1rem;
   padding-bottom: var(--size-scale-600);
   background-color: var(--background-color);
-  color: var(--base-color);
+  color: var(--foreground-color);
 }
 
 h1,
@@ -66,6 +66,7 @@ a {
   text-underline-offset: .3ex;
   text-decoration-thickness: .3ex;
 }
+
 a:hover {
   color: var(--link-color-hover);
 }

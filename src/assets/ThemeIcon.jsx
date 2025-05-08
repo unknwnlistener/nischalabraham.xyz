@@ -1,23 +1,23 @@
-export default function Sun({ darkMode = false }) {
+export default function ThemeIcon({ isDark = false, isSystem = false }) {
     return (
         <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
-            <title>Theme toggle</title>
+            <title>{isSystem ? "System" : isDark ? "Dark" : "Light"}</title>
 
             <path
-                fill={"var(--base-color)"}
-                stroke={"var(--base-color)"}
+                fill={"var(--foreground-color)"}
+                stroke={"var(--foreground-color)"}
                 fillOpacity={0.35}
                 strokeOpacity={1}
                 className="theme-toggle-icon"
                 d={
-                    darkMode
+                    isDark
                         ? "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"
                         : "M 15,15 m 8, 0 a 8,8 0 1,0 -16,0 a 8,8 0 1,0  16,0"
                 }
-                transform={darkMode ? "scale(1.3)" : "scale(1)"}
+                transform={isSystem ? "scale(0.9) translate(4 4)" : (isDark ? "scale(1.3)" : "scale(1)")}
             />
             <g
-                stroke={darkMode ? "none" : "var(--base-color)"}
+                stroke={(!isSystem && isDark) ? "none" : "var(--foreground-color)"}
                 className="sun-rays"
             >
                 <line

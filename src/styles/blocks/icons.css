@@ -8,7 +8,7 @@
     height: 3em;
 }
 
-.icon > p {
+.icon>p {
     text-transform: capitalize;
 }
 
@@ -26,7 +26,7 @@
     border-radius: 0;
     background-color: initial;
     justify-content: center;
-    color: var(--base-color);
+    color: var(--foreground-color);
 }
 
 .icon.monochrome:hover {

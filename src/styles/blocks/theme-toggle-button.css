@@ -1,4 +1,4 @@
-.dark-mode-toggle {
+.theme-mode-toggle {
     cursor: pointer;
     border: var(--background-color);
     border-radius: 100%;
@@ -9,10 +9,25 @@
     line-height: 0;
 }
 
-.dark-mode-toggle:hover {
-    background: rgba(var(--base-color-rgb), 0.1);
+.theme-mode-toggle:hover {
+    background: var(--color-secondary);
+    --foreground-color: var(--light);
 }
 
-.dark-mode-toggle:active {
+.theme-mode-toggle:active {
     transform: scale(0.95);
+}
+
+:root[data-theme="system"] {
+    color-scheme: light dark;
+}
+
+:root[data-theme="light"] {
+    color-scheme: light;
+    --color-secondary: rgb(126, 217, 87);
+    --color-primary: rgb(0, 151, 178);
+}
+
+:root[data-theme="dark"] {
+    color-scheme: dark;
 }

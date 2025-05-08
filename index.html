@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0" />
         <!-- Primary Meta Tags -->
         <title>Nischal Abraham - Full Stack Developer</title>
         <meta name="title" content="Nischal Abraham - Full Stack Developer" />
-        <meta name="description" content="Nischal Abraham is a Full Stack developer based in Northern Ireland." />
-        <meta name="keywords" content="Full Stack Developer, Nischal Abraham, Northern Ireland, Web Development" />
+        <meta name="description"
+            content="Nischal Abraham is a Full Stack developer based in Northern Ireland." />
+        <meta name="keywords"
+            content="Full Stack Developer, Nischal Abraham, Northern Ireland, Web Development" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://nischalabraham.xyz/" />
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nischalabraham.xyz/" />
         <meta property="og:title" content="Nischal Abraham - Developer" />
-        <meta property="og:description" content="Nischal Abraham is a Full Stack developer based in Northern Ireland." />
-        <meta property="og:image" content="https://nischalabraham.xyz/static/images/og_image.jpg" />
+        <meta property="og:description"
+            content="Nischal Abraham is a Full Stack developer based in Northern Ireland." />
+        <meta property="og:image"
+            content="https://nischalabraham.xyz/static/images/og_image.jpg" />
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://nischalabraham.xyz/" />
-        <meta property="twitter:title" content="Nischal Abraham - Full Stack Developer" />
-        <meta property="twitter:description" content="Nischal Abraham is a Stack developer based in Northern Ireland." />
+        <meta property="twitter:title"
+            content="Nischal Abraham - Full Stack Developer" />
+        <meta property="twitter:description"
+            content="Nischal Abraham is a Stack developer based in Northern Ireland." />
         <meta property="twitter:image" content="/icons/icon-512.png" />
         <!--Icons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png" />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="/icons/icon-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="/icons/icon-16.png" />
         <link rel="icon" href="/icons/nalogo.ico" sizes="32x32">
         <link rel="icon" href="/icons/nalogo.svg" type="image/svg+xml">
         <link rel="manifest" href="/site.webmanifest" />
 
         <link rel="stylesheet" href="./src/index.css">
+
+        <script>
+            document.querySelector('html')?.setAttribute('data-theme', localStorage.getItem("theme") || "system")
+        </script>
     </head>
+
     <body>
         <div id="root"></div>
         <script type="module" src="/src/main.jsx"></script>
     </body>
+
 </html>

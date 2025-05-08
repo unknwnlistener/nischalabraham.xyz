@@ -67,3 +67,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [CUBE CSS](https://cube.fyi/) - Methodology to manage CSS files.
 - [Vanilla Development Styling Guide](https://plainvanillaweb.com/pages/styling.html)
 - [Hyperplexed- Fancy card hover effect](https://youtu.be/htGfnF1zN4g?si=rVjUr7uJpIv3A6j4)
+- [Modern CSS Theming | Light Mode / Dark Mode (Youtube)](https://youtu.be/F1s8MZoGVL8?si=zDN-iQuQqxWafw3i)
