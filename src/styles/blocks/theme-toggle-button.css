@@ -24,8 +24,6 @@
 
 :root[data-theme="light"] {
     color-scheme: light;
-    --color-secondary: rgb(126, 217, 87);
-    --color-primary: rgb(0, 151, 178);
 }
 
 :root[data-theme="dark"] {

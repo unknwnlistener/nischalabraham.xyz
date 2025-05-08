@@ -7,12 +7,11 @@
 
   --light: #ffffffde;
   --dark: #242424;
-  --background-color: light-dark(var(--light), var(--dark));
+  --background-color: light-dark(oklch(0.95 0.005 143.95), oklch(0.21 0.0678 143.95));
 
   --foreground-color: light-dark(var(--dark), var(--light));
 
-  --link-color: #646cff;
-  --link-color-hover: #535bf2;
+  --link-color: var(--color-secondary);
 
   --box-outer-radius: 10px;
   --box-padding: 1px;
@@ -29,6 +28,6 @@
   --size-scale-700: calc(var(--base-size) * 2.4);
 
   /* Colours */
-  --color-primary: rgb(126, 217, 87);
-  --color-secondary: rgb(0, 151, 178);
+  --color-primary: #7ed957;
+  --color-secondary: #0097b2;
 }
