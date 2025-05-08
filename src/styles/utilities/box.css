@@ -1,6 +1,6 @@
 .box {
     border: 1px solid;
-    border-color: var(--base-color);
+    border-color: var(--foreground-color);
     padding: 0.75rem;
 }
 

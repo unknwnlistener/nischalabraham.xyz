@@ -1,15 +1,14 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
+    padding: 0.25rem 2rem;
     width: 100%;
+    position: absolute;
+    align-items: center;
 }
 
-.navbar :first-child {
+.navbar img {
     height: 50px;
-}
-.navbar :last-child {
-    right: 0;
 }
 
 

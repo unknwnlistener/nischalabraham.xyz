@@ -58,7 +58,7 @@ export default function Projects() {
     };
     return (
         <article>
-            <h2>Stuff I've worked on</h2>
+            <h2>Stuff I&apos;ve worked on</h2>
             <div className="flex-grid cards-block">
                 <ProjectListItem
                     title={"nischalabraham.xyz"}
