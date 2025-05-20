@@ -1,6 +1,6 @@
-import githubIcon from "@/assets/github.svg";
-import arrowUpRightSquare from "@/assets/arrow-up-right-from-square.svg";
 import FancyCard from "@/components/FancyCard";
+import ArrowUpRightFromSquare from "@/assets/ArrowUpRightFromSquare";
+import GithubLogo from "@/assets/GithubLogo";
 
 export default function Projects() {
     const ProjectListItem = ({
@@ -28,7 +28,7 @@ export default function Projects() {
                                 aria-label={`Github link for the project ${title}`}
                                 className="icon monochrome"
                             >
-                                <img src={githubIcon} alt="" />
+                                <GithubLogo />
                                 Github
                             </a>
                         )}
@@ -40,7 +40,7 @@ export default function Projects() {
                                 aria-label={`External link for the project ${title}`}
                                 className="icon monochrome"
                             >
-                                <img src={arrowUpRightSquare} alt="" />
+                                <ArrowUpRightFromSquare />
                                 Demo
                             </a>
                         )}

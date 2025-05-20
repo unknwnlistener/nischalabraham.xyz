@@ -1,16 +1,16 @@
-import codetagIcon from "@/assets/codetag.svg";
-import reactIcon from "@/assets/react.svg";
-import jsIcon from "@/assets/javascript-logo.svg";
-import tsIcon from "@/assets/typescript-logo.svg";
-import laravelIcon from "@/assets/laravel.svg";
-import cypressIcon from "@/assets/cypress.svg";
-import mysqlIcon from "@/assets/mysql.svg";
+import CodetagIcon from "@/assets/Codetag";
+import ReactLogo from "@/assets/ReactLogo";
+import JsLogo from "@/assets/JavascriptLogo";
+import TsLogo from "@/assets/TypescriptLogo";
+import LaravelLogo from "@/assets/LaravelLogo";
+import CypressLogo from "@/assets/CypressLogo";
+import MysqlLogo from "@/assets/MysqlLogo";
 
 export default function Skills() {
-    const ListItem = ({ image = codetagIcon, title }) => {
+    const ListItem = ({ Icon = CodetagIcon, title }) => {
         return (
             <li className="skill icon">
-                <img src={image} alt="" />
+                <Icon />
                 {title}
             </li>
         );
@@ -20,12 +20,12 @@ export default function Skills() {
             <h2>Skills</h2>
             <ul className="[ cluster spread ] center-x">
                 <ListItem title="HTML & CSS" />
-                <ListItem title="Javascript" image={jsIcon} />
-                <ListItem title="Typescript" image={tsIcon} />
-                <ListItem title="React" image={reactIcon} />
-                <ListItem title="Laravel" image={laravelIcon} />
-                <ListItem title="Cypress" image={cypressIcon} />
-                <ListItem title="MySQL" image={mysqlIcon} />
+                <ListItem title="Javascript" Icon={JsLogo} />
+                <ListItem title="Typescript" Icon={TsLogo} />
+                <ListItem title="React" Icon={ReactLogo} />
+                <ListItem title="Laravel" Icon={LaravelLogo} />
+                <ListItem title="Cypress" Icon={CypressLogo} />
+                <ListItem title="MySQL" Icon={MysqlLogo} />
             </ul>
         </article>
     );
