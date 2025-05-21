@@ -1,6 +1,6 @@
-import githubIcon from "@/assets/github.svg";
-import linkedinIcon from "@/assets/linkedin.svg";
-import twitterIcon from "@/assets/twitter-x.svg";
+import GithubLogo from "@/assets/GithubLogo";
+import LinkedinLogo from "@/assets/LinkedinLogo";
+import TwitterXLogo from "@/assets/TwitterXLogo";
 
 export default function Footer() {
     return (
@@ -13,7 +13,7 @@ export default function Footer() {
                         title="Github"
                         className="icon monochrome"
                     >
-                        <img src={githubIcon} alt="" />
+                        <GithubLogo />
                         Github
                     </a>
                 </li>
@@ -23,7 +23,7 @@ export default function Footer() {
                         title="LinkedIn"
                         className="icon monochrome"
                     >
-                        <img src={linkedinIcon} alt="" />
+                        <LinkedinLogo />
                         LinkedIn
                     </a>
                 </li>
@@ -33,7 +33,7 @@ export default function Footer() {
                         title="Twitter/X"
                         className="icon monochrome"
                     >
-                        <img src={twitterIcon} alt="" />
+                        <TwitterXLogo />
                         Twitter/X
                     </a>
                 </li>

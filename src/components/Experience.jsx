@@ -1,5 +1,5 @@
 import resume from "@/assets/nischal-abraham-resume.pdf";
-import arrowUpRight from "@/assets/arrow-up-right.svg";
+import ArrowUpRight from "../assets/ArrowUpRight";
 
 export default function Experience() {
     const ExperienceListItem = ({
@@ -80,7 +80,7 @@ export default function Experience() {
             <aside className="left-align">
                 <a className="icon row monochrome" href={resume}>
                     View Full Resume
-                    <img src={arrowUpRight} alt="" />
+                    <ArrowUpRight />
                 </a>
             </aside>
         </article>
