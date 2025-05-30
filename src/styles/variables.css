@@ -5,9 +5,10 @@
   --font-system-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   --font-system-code-size: 0.8rem;
 
-  --light: #ffffffde;
-  --dark: #242424;
-  --background-color: light-dark(oklch(0.95 0.005 143.95), oklch(0.21 0.0678 143.95));
+  --light: #EBD477;
+  --text-bg: #fcffee;
+  --dark: #B55E30;
+  --background-color: light-dark(var(--light), var(--dark));
 
   --foreground-color: light-dark(var(--dark), var(--light));
 
@@ -16,7 +17,6 @@
   --box-outer-radius: 10px;
   --box-padding: 1px;
   --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
-
 
 
   /* Sizes */
@@ -30,4 +30,6 @@
   /* Colours */
   --color-primary: #7ed957;
   --color-secondary: #0097b2;
+
+  --max-width: 48rem;
 }

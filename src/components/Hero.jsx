@@ -4,7 +4,7 @@ export default function Hero() {
             <div>
                 <h1>Full Stack Developer</h1>
                 <p>
-                    My name is Nischal Abraham. I craft performant, scalable,
+                    I'm Nischal. I craft performant, scalable,
                     and user-centric applications using modern web technologies.
                 </p>
             </div>

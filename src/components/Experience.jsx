@@ -26,8 +26,8 @@ export default function Experience() {
                 <div>
                     <time dateTime={getDateString(startDate)}>
                         {getMonthYear(startDate)}
-                    </time>{" "}
-                    &mdash;{" "}
+                    </time>
+                    {" "}&mdash;{" "}
                     <time dateTime={getDateString(endDate)}>
                         {getMonthYear(endDate)}
                     </time>

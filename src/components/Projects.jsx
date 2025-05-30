@@ -59,7 +59,7 @@ export default function Projects() {
     return (
         <article>
             <h2>Stuff I&apos;ve worked on</h2>
-            <div className="flex-grid cards-block">
+            <div className="flex-grid [ center-x ] cards-block">
                 <ProjectListItem
                     title={"nischalabraham.xyz"}
                     description={

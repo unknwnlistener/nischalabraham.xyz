@@ -1,0 +1,14 @@
+.text-align-start {
+    text-align: start;
+    width: fit-content;
+}
+
+.text-align-center {
+    text-align: center;
+    width: fit-content;
+}
+
+.text-align-end {
+    text-align: end;
+    width: fit-content;
+}
