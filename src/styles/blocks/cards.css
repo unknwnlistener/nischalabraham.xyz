@@ -10,7 +10,7 @@
     color: var(--foreground-color);
     padding: var(--box-padding);
     background-color: rgba(var(--bg-color-values), 0.1);
-    max-width: 20rem;
+    max-inline-size: 20rem;
     height: auto;
     width: auto;
     border-radius: var(--box-outer-radius);

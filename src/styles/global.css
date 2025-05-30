@@ -2,14 +2,15 @@
 @import 'utilities/center';
 @import 'utilities/grid';
 @import 'utilities/text-align';
+@import 'utilities/flex';
+@import 'utilities/padding';
 
 @import 'compositions/stack';
 @import 'compositions/splitter';
 @import 'compositions/cluster';
 @import 'compositions/box';
-@import 'compositions/navbar';
-@import 'compositions/wrapper';
 
+@import 'blocks/navbar';
 @import 'blocks/hero-layout';
 @import 'blocks/icons';
 @import 'blocks/cards';
@@ -36,11 +37,11 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   padding: 1rem;
-  padding-bottom: var(--size-scale-600);
+  padding-bottom: var(--fs-600);
   background-color: var(--background-color);
   color: var(--foreground-color);
   margin: 0 auto;
-  max-width: var(--max-width);
+  max-inline-size: var(--max-width);
 }
 
 h1,
@@ -50,15 +51,15 @@ h3 {
 }
 
 h1 {
-  font-size: var(--size-scale-700);
+  font-size: var(--fs-700);
 }
 
 h2 {
-  font-size: var(--size-scale-600);
+  font-size: var(--fs-600);
 }
 
 h3 {
-  font-size: var(--size-scale-500);
+  font-size: var(--fs-500);
 }
 
 a {

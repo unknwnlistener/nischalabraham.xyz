@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.space-between {
+    justify-content: space-between;
+}

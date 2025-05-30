@@ -5,6 +5,27 @@
   --font-system-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   --font-system-code-size: 0.8rem;
 
+  --box-outer-radius: 10px;
+  --box-padding: 1px;
+  --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
+
+
+  /* Sizes */
+  --base-size: 1rem;
+  --fs-300: calc(var(--base-size) * 0.8);
+  --fs-400: var(--base-size);
+  --fs-500: calc(var(--base-size) * 1.33);
+  --fs-600: calc(var(--base-size) * 1.77);
+  --fs-700: calc(var(--base-size) * 2.4);
+
+  --border-width: 0.25rem;
+  --border-radius: 0.5rem;
+  
+  --max-width: 48rem;
+
+  /* Colours */
+  --color-primary: #7ed957;
+  --color-secondary: #0097b2;
   --light: #EBD477;
   --text-bg: #fcffee;
   --dark: #B55E30;
@@ -14,22 +35,4 @@
 
   --link-color: var(--color-secondary);
 
-  --box-outer-radius: 10px;
-  --box-padding: 1px;
-  --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
-
-
-  /* Sizes */
-  --base-size: 1rem;
-  --size-scale-300: calc(var(--base-size) * 0.8);
-  --size-scale-400: var(--base-size);
-  --size-scale-500: calc(var(--base-size) * 1.33);
-  --size-scale-600: calc(var(--base-size) * 1.77);
-  --size-scale-700: calc(var(--base-size) * 2.4);
-
-  /* Colours */
-  --color-primary: #7ed957;
-  --color-secondary: #0097b2;
-
-  --max-width: 48rem;
 }

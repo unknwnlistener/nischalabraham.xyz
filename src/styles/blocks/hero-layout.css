@@ -15,11 +15,11 @@
 }
 
 .hero-layout h1 {
-    font-size: clamp(var(--size-scale-600), -0.875rem + 8.333vw, 3.5rem);
+    font-size: clamp(var(--fs-600), -0.875rem + 8.333vw, 3.5rem);
 }
 
 .hero-layout h1 + p {
-    font-size: clamp(1rem, -0.875rem + 8.333vw, var(--size-scale-500));
+    font-size: clamp(1rem, -0.875rem + 8.333vw, var(--fs-500));
 }
 
 .hero-layout img {

@@ -11,7 +11,7 @@ export default function App() {
             <Navbar />
             <main>
                 <Hero />
-                <section className="wrapper">
+                <section>
                     <Skills />
                     <Experience />
                     <Projects />

@@ -4,7 +4,7 @@ import TwitterXLogo from "@/assets/TwitterXLogo";
 
 export default function Footer() {
     return (
-        <footer className="wrapper">
+        <footer>
             <h2>Find me here:</h2>
             <ul className="cluster">
                 <li>

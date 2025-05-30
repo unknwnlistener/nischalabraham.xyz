@@ -1,6 +1,6 @@
 .pill {
     display: inline-block;
-    font-size: var(--size-scale-300);
+    font-size: var(--fs-300);
     padding: 0.1rem 0.75rem;
     border: 1px solid;
     border-radius: 1rem;
