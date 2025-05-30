@@ -1,0 +1,5 @@
+.button {
+    text-decoration: none;
+    padding-inline: var(--space-2xs);
+    padding-block: var(--space-3xs);
+}

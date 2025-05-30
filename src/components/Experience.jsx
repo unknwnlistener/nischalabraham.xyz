@@ -1,6 +1,3 @@
-import resume from "@/assets/nischal-abraham-resume.pdf";
-import ArrowUpRight from "../assets/ArrowUpRight";
-
 export default function Experience() {
     const ExperienceListItem = ({
         company,
@@ -77,12 +74,6 @@ export default function Experience() {
                     skillsList={"HTML, CSS, JavaScript, Angular, ASP.NET, Git"}
                 />
             </ul>
-            <aside className="left-align">
-                <a className="icon row monochrome" href={resume}>
-                    View Full Resume
-                    <ArrowUpRight />
-                </a>
-            </aside>
         </article>
     );
 }
