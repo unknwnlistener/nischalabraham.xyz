@@ -68,3 +68,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Vanilla Development Styling Guide](https://plainvanillaweb.com/pages/styling.html)
 - [Hyperplexed- Fancy card hover effect](https://youtu.be/htGfnF1zN4g?si=rVjUr7uJpIv3A6j4)
 - [Modern CSS Theming | Light Mode / Dark Mode (Youtube)](https://youtu.be/F1s8MZoGVL8?si=zDN-iQuQqxWafw3i)
+- [Responsive Layouts, Fewer Media Queries | CSS-Tricks](https://css-tricks.com/responsive-layouts-fewer-media-queries/)

@@ -1,9 +1,11 @@
 @import 'utilities/visually-hidden';
 @import 'utilities/center';
+@import 'utilities/margins';
 @import 'utilities/grid';
-@import 'utilities/text-align';
+@import 'utilities/text-font';
 @import 'utilities/flex';
 @import 'utilities/padding';
+@import 'utilities/height-width';
 
 @import 'compositions/stack';
 @import 'compositions/splitter';
@@ -11,13 +13,13 @@
 @import 'compositions/box';
 
 @import 'blocks/navbar';
-@import 'blocks/hero-layout';
+@import 'blocks/profile';
 @import 'blocks/icons';
 @import 'blocks/cards';
 @import 'blocks/pills';
 @import 'blocks/experience-block';
 @import 'blocks/projects-block';
-@import 'blocks/skills-block';
+@import 'blocks/skills';
 @import 'blocks/theme-toggle-button';
 
 :root {

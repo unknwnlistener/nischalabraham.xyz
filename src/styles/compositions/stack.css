@@ -5,10 +5,10 @@
   margin-block-start: var(--flow-space, 1rem);
 }
 
-.stack-large > * + * {
-  margin-block-start: 3rem;
+.stack.lg > * + * {
+  --flow-space: 3rem;
 }
 
-.stack-small > * + * {
-  margin-block-start: 0.5rem;
+.stack.sm > * + * {
+  --flow-space: 0.5rem;
 }

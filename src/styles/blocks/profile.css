@@ -1,0 +1,37 @@
+.profile {
+    --w: 600px;
+    --c: (100vw - var(--w));
+    h1 {
+        font-size: var(--fs-800);
+        max-width: 18ch;
+    }
+
+    h1 + p {
+        margin-top: var(--space-xs);
+        font-size: var(--fs-500);
+    }
+
+    p + p {
+        margin-top: 0;
+        font-size: var(--fs-400);
+    }
+
+    img {
+        --small-pic-size: 100px;
+        /* top: clamp(0px, var(--c)*-1000, 10px);
+    right: clamp(0px, var(--c)*-1000, 20px); */
+        aspect-ratio: 1;
+        width: clamp(var(--small-pic-size), var(--c) * 1000, 100px);
+        height: clamp(var(--small-pic-size), var(--c) * 1000, 100%);
+        border-radius: clamp(var(--small-pic-size), var(--c) * 1000, 100%);
+        object-fit: cover;
+        object-position: top;
+    }
+
+    ul {
+        font-size: var(--fs-300);
+    }
+    h2 {
+        font-size: var(--fs-500);
+    }
+}
