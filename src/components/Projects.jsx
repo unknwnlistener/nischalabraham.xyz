@@ -1,4 +1,3 @@
-import FancyCard from "@/components/FancyCard";
 import ArrowUpRightFromSquare from "@/assets/ArrowUpRightFromSquare";
 import GithubLogo from "@/assets/GithubLogo";
 
@@ -17,49 +16,51 @@ export default function Projects() {
                 .filter((el) => el);
         };
         return (
-            <FancyCard className="project-block">
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <ul className="cluster">
-                    <li>
-                        {githubLink && (
-                            <a
-                                href={githubLink}
-                                aria-label={`Github link for the project ${title}`}
-                                className="icon monochrome"
-                            >
-                                <GithubLogo />
-                                Github
-                            </a>
-                        )}
-                    </li>
-                    <li>
-                        {externalLink && (
-                            <a
-                                href={externalLink}
-                                aria-label={`External link for the project ${title}`}
-                                className="icon monochrome"
-                            >
-                                <ArrowUpRightFromSquare />
-                                Demo
-                            </a>
-                        )}
-                    </li>
-                </ul>
-                <ul className="cluster">
-                    {getSkillsAsList().map((skill) => (
-                        <li className="pill" key={skill}>
-                            {skill}
+            <div className="[ bg-card ][ card ]">
+                <div className="project__card">
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                    <ul className="cluster">
+                        <li>
+                            {githubLink && (
+                                <a
+                                    href={githubLink}
+                                    aria-label={`Github link for the project ${title}`}
+                                    className="icon monochrome"
+                                >
+                                    <GithubLogo />
+                                    Github
+                                </a>
+                            )}
                         </li>
-                    ))}
-                </ul>
-            </FancyCard>
+                        <li>
+                            {externalLink && (
+                                <a
+                                    href={externalLink}
+                                    aria-label={`External link for the project ${title}`}
+                                    className="icon monochrome"
+                                >
+                                    <ArrowUpRightFromSquare />
+                                    Demo
+                                </a>
+                            )}
+                        </li>
+                    </ul>
+                    <ul className="cluster">
+                        {getSkillsAsList().map((skill) => (
+                            <li className="box pill" key={skill}>
+                                {skill}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
         );
     };
     return (
         <article>
-            <h2>Stuff I&apos;ve worked on</h2>
-            <div className="flex-grid cards-block">
+            <h2>Projects</h2>
+            <div className="grid cards-block">
                 <ProjectListItem
                     title={"nischalabraham.xyz"}
                     description={

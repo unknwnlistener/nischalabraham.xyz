@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+}
+
+.flex.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex .grow {
+    flex-grow: 1;
+}
+
+.gap-2 {
+    gap: var(--space-s);
+}
+.gap-4 {
+    gap: var(--space-m);
+}
+.gap-6 {
+    gap: var(--space-l);
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}

@@ -1,88 +1,94 @@
-@import 'utilities/wrapper';
-@import 'utilities/visually-hidden';
-@import 'utilities/stack';
-@import 'utilities/splitter.css';
-@import 'utilities/grid.css';
-@import 'utilities/cluster.css';
-@import 'utilities/center.css';
-@import 'utilities/box.css';
-@import 'utilities/left-align.css';
+@import "utilities/visually-hidden";
+@import "utilities/center";
+@import "utilities/margins";
+@import "utilities/grid";
+@import "utilities/text-font";
+@import "utilities/flex";
+@import "utilities/padding";
+@import "utilities/background";
+@import "utilities/height-width";
 
-@import 'compositions/hero-layout.css';
-@import 'compositions/navbar.css';
+@import "compositions/stack";
+@import "compositions/splitter";
+@import "compositions/cluster";
+@import "compositions/box";
 
-@import 'blocks/icons.css';
-@import 'blocks/cards.css';
-@import 'blocks/pills.css';
-@import 'blocks/experience-block.css';
-@import 'blocks/projects-block.css';
-@import 'blocks/skills-block.css';
-@import 'blocks/theme-toggle-button.css';
+@import "blocks/navbar";
+@import "blocks/buttons";
+@import "blocks/profile";
+@import "blocks/icons";
+@import "blocks/cards";
+@import "blocks/pills";
+@import "blocks/experience-block";
+@import "blocks/projects";
+@import "blocks/footer";
+@import "blocks/theme-toggle-button";
 
 :root {
-  font-family: var(--font-system);
+    font-family: var(--font-system);
 
-  color-scheme: light dark;
-  color: var(--foreground-color);
-  background-color: var(--background-color);
+    color-scheme: light dark;
+    color: var(--foreground-color);
+    background-color: var(--background-color);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  line-height: 1.5;
-  overflow-x: hidden;
-  padding: 1rem;
-  padding-bottom: var(--size-scale-600);
-  background-color: var(--background-color);
-  color: var(--foreground-color);
+    line-height: 1.5;
+    overflow-x: hidden;
+    padding: 1rem;
+    padding-bottom: 0;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    margin: 0 auto;
+    max-inline-size: var(--max-width);
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.2;
+    line-height: 1.2;
 }
 
 h1 {
-  font-size: var(--size-scale-700);
+    font-size: var(--fs-700);
 }
 
 h2 {
-  font-size: var(--size-scale-600);
+    font-size: var(--fs-600);
 }
 
 h3 {
-  font-size: var(--size-scale-500);
+    font-size: var(--fs-500);
 }
 
 a {
-  font-weight: 500;
-  text-decoration: underline;
-  text-decoration-color: var(--link-color);
-  text-underline-offset: .3ex;
-  text-decoration-thickness: .3ex;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
+    text-underline-offset: 0.3ex;
+    text-decoration-thickness: 0.3ex;
 }
 
 a:hover {
-  color: var(--link-color);
+    color: var(--link-color);
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 th {
-  text-align: left;
+    text-align: left;
 }
 
-
 @media (min-width: 960px) {
-  :root {
-    /* ↓ Upscale by 10% at 960px */
-    font-size: 110%;
-  }
+    :root {
+        /* ↓ Upscale by 10% at 960px */
+        font-size: 110%;
+    }
 }

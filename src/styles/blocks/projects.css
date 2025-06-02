@@ -1,18 +1,19 @@
-.project-block {
+.project__card {
     display: grid;
     grid-template-rows: min-content max-content 1fr;
-    align-items: start;
+    align-items: center;
     gap: 1rem;
 }
 
-.project-block > * {
+.project__card > * {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.project-block > h3,p {
+.project__card > h3,
+p {
     align-self: self-start;
 }
-.project-block > ul {
+.project__card > ul {
     align-self: self-end;
 }

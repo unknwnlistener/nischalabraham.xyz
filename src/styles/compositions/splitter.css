@@ -1,6 +1,6 @@
 
 .splitter > :last-child {
-    margin-top: var(--size-scale-500);
+    margin-top: var(--fs-500);
 }
 
 @media screen and (min-width: 768px) {
@@ -13,7 +13,7 @@
         
     .splitter > :last-child {
         margin-top: 0;
-        margin-left: var(--size-scale-500);
+        margin-left: var(--fs-500);
         min-width: 22rem;
     }
 }

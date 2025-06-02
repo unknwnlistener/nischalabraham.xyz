@@ -1,33 +1,57 @@
+/* @link https://utopia.fyi/type/calculator?c=320,14,1.2,1200,16,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
 :root {
-  /* https://modernfontstacks.com/  geometric humanist font */
-  --font-system: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-  /* monospace code font */
-  --font-system-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-  --font-system-code-size: 0.8rem;
+    /* https://modernfontstacks.com/  geometric humanist font */
+    --font-system: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+        source-sans-pro, sans-serif;
+    /* monospace code font */
+    --font-system-code: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+        Consolas, "DejaVu Sans Mono", monospace;
+    --font-system-code-size: 0.8rem;
 
-  --light: #ffffffde;
-  --dark: #242424;
-  --background-color: light-dark(oklch(0.95 0.005 143.95), oklch(0.21 0.0678 143.95));
+    --box-outer-radius: 10px;
+    --box-padding: 5px;
+    --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
 
-  --foreground-color: light-dark(var(--dark), var(--light));
+    /* Sizes */
+    --fs-200: clamp(0.5628rem, 0.624rem + -0.0816vw, 0.6076rem);
+    --fs-300: clamp(0.7292rem, 0.7215rem + 0.0382vw, 0.7502rem);
+    --fs-400: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem);
+    --fs-500: clamp(1.05rem, 0.9471rem + 0.5145vw, 1.333rem);
+    --fs-600: clamp(1.26rem, 1.072rem + 0.9398vw, 1.7769rem);
+    --fs-700: clamp(1.512rem, 1.2005rem + 1.5574vw, 2.3686rem);
+    --fs-800: clamp(1.8144rem, 1.3261rem + 2.4417vw, 3.1573rem);
 
-  --link-color: var(--color-secondary);
+    --space-3xs: clamp(0.25rem, 0.25rem + 0vw, 0.25rem);
+    --space-2xs: clamp(0.4375rem, 0.4148rem + 0.1136vw, 0.5rem);
+    --space-xs: clamp(0.6875rem, 0.6648rem + 0.1136vw, 0.75rem);
+    --space-s: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem);
+    --space-m: clamp(1.3125rem, 1.2443rem + 0.3409vw, 1.5rem);
+    --space-l: clamp(1.75rem, 1.6591rem + 0.4545vw, 2rem);
+    --space-xl: clamp(2.625rem, 2.4886rem + 0.6818vw, 3rem);
+    --space-2xl: clamp(3.5rem, 3.3182rem + 0.9091vw, 4rem);
 
-  --box-outer-radius: 10px;
-  --box-padding: 1px;
-  --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
+    --border-width: 0.25rem;
+    --border-radius: 0.5rem;
 
+    --max-width: 48rem;
 
+    /* Colours */
+    --color-primary: #7ed957;
+    --color-secondary: #0097b2;
+    --bg-light: #ebd477;
+    --clr-text-bg: #fcffee;
+    --dark: #b55e30;
+    --clr-accent: #572d42;
 
-  /* Sizes */
-  --base-size: 1rem;
-  --size-scale-300: calc(var(--base-size) * 0.8);
-  --size-scale-400: var(--base-size);
-  --size-scale-500: calc(var(--base-size) * 1.33);
-  --size-scale-600: calc(var(--base-size) * 1.77);
-  --size-scale-700: calc(var(--base-size) * 2.4);
+    --background-color: light-dark(var(--bg-light), var(--dark));
+    --foreground-color: light-dark(var(--dark), var(--bg-light));
+    --border-color: #da8332;
 
-  /* Colours */
-  --color-primary: #7ed957;
-  --color-secondary: #0097b2;
+    --link-color: var(--border-color);
+    --clr-card-bg-lighter: rgba(252, 255, 238, 0.064);
+    --clr-card-bg-light: rgba(252, 255, 238, 0.312);
+
+    --clr-footer-1: #43a29c;
+    --clr-footer-2: #6cc7c0;
 }

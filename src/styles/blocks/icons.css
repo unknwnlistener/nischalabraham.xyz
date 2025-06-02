@@ -1,14 +1,14 @@
 .icon {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    align-items: center;
 }
 
 .icon img {
     height: 3em;
 }
 
-.icon>p {
+.icon > p {
     text-transform: capitalize;
 }
 
@@ -31,8 +31,4 @@
 
 .icon.monochrome:hover {
     color: var(--link-color);
-}
-
-.icon.monochrome img {
-    height: 2em;
 }

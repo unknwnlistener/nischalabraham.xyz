@@ -1,0 +1,7 @@
+.margin-top-2 {
+    margin-top: var(--space-xs);
+}
+
+.margin-top-4 {
+    margin-top: var(--space-s);
+}

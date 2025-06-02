@@ -10,7 +10,7 @@
 }
 
 .theme-mode-toggle:hover {
-    background: var(--color-secondary);
+    background-color: var(--link-color);
     --foreground-color: var(--light);
 }
 

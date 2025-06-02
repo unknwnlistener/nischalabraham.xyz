@@ -1,6 +1,3 @@
-import resume from "@/assets/nischal-abraham-resume.pdf";
-import ArrowUpRight from "../assets/ArrowUpRight";
-
 export default function Experience() {
     const ExperienceListItem = ({
         company,
@@ -26,8 +23,8 @@ export default function Experience() {
                 <div>
                     <time dateTime={getDateString(startDate)}>
                         {getMonthYear(startDate)}
-                    </time>{" "}
-                    &mdash;{" "}
+                    </time>
+                    {" "}&mdash;{" "}
                     <time dateTime={getDateString(endDate)}>
                         {getMonthYear(endDate)}
                     </time>
@@ -39,7 +36,7 @@ export default function Experience() {
                     <p>{description}</p>
                     <ul className="cluster">
                         {getSkillsAsList().map((skill) => (
-                            <li className="pill" key={skill}>
+                            <li className="box pill" key={skill}>
                                 {skill}
                             </li>
                         ))}
@@ -77,12 +74,6 @@ export default function Experience() {
                     skillsList={"HTML, CSS, JavaScript, Angular, ASP.NET, Git"}
                 />
             </ul>
-            <aside className="left-align">
-                <a className="icon row monochrome" href={resume}>
-                    View Full Resume
-                    <ArrowUpRight />
-                </a>
-            </aside>
         </article>
     );
 }

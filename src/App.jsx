@@ -1,18 +1,16 @@
 import Experience from "@/components/Experience";
-import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
+import Profile from "@/components/Profile";
 
 export default function App() {
     return (
         <>
             <Navbar />
             <main>
-                <Hero />
-                <section className="wrapper">
-                    <Skills />
+                <Profile />
+                <section>
                     <Experience />
                     <Projects />
                 </section>
