@@ -17,3 +17,8 @@ p {
 .project__card > ul {
     align-self: self-end;
 }
+
+.project__card svg {
+    width: 36px;
+    height: 36px;
+}
