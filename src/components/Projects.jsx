@@ -1,5 +1,5 @@
-import ArrowUpRightFromSquare from "@/assets/ArrowUpRightFromSquare";
 import GithubLogo from "@/assets/GithubLogo";
+import Globe from "../assets/Globe";
 
 export default function Projects() {
     const ProjectListItem = ({
@@ -40,8 +40,8 @@ export default function Projects() {
                                     aria-label={`External link for the project ${title}`}
                                     className="icon monochrome"
                                 >
-                                    <ArrowUpRightFromSquare />
-                                    Demo
+                                    <Globe />
+                                    Site
                                 </a>
                             )}
                         </li>
@@ -62,11 +62,27 @@ export default function Projects() {
             <h2>Projects</h2>
             <div className="grid cards-block">
                 <ProjectListItem
-                    title={"nischalabraham.xyz"}
+                    title={"Postal Bible School"}
                     description={
-                        "Personal website built to showcase my portfolio and experience."
+                        "Landing page with Auth and LMS functionality"
                     }
-                    techList={"React, Javascript, HTML, CSS"}
+                    techList={"React, Typescript, Laravel, Auth0, Cloudways"}
+                    externalLink="https://postalbibleschool.ie"
+                />
+                <ProjectListItem
+                    title={"Fairview Hall Church"}
+                    description={
+                        "Full redesign and development of webpage for local church that needed a revamp."
+                    }
+                    techList={"HTML, CSS, JavaScript"}
+                    externalLink="https://fairviewhall.ie/"
+                />
+                <ProjectListItem
+                    title={"Portfolio Website"}
+                    description={
+                        "You're here already!"
+                    }
+                    techList={"React, HTML, CSS"}
                     githubLink="https://github.com/unknwnlistener/nischalabraham.xyz"
                 />
                 <ProjectListItem
@@ -74,7 +90,7 @@ export default function Projects() {
                     description={
                         "Clone of instagram story feature using local storage to show images as a slideshow."
                     }
-                    techList={"HTML, CSS, Typescript,React, Git"}
+                    techList={"Typescript,React, Git"}
                     githubLink="https://github.com/unknwnlistener/roadmap-story-feature"
                     externalLink="https://roadmap-story-feature.vercel.app"
                 />
