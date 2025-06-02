@@ -21,6 +21,7 @@
 @import "blocks/pills";
 @import "blocks/experience-block";
 @import "blocks/projects";
+@import "blocks/footer";
 @import "blocks/theme-toggle-button";
 
 :root {
@@ -40,7 +41,7 @@ body {
     line-height: 1.5;
     overflow-x: hidden;
     padding: 1rem;
-    padding-bottom: var(--fs-600);
+    padding-bottom: 0;
     background-color: var(--background-color);
     color: var(--foreground-color);
     margin: 0 auto;

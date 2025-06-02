@@ -1,0 +1,42 @@
+.footer {
+    margin-top: var(--space-2xl);
+    height: 20dvh;
+    background: linear-gradient(
+        in oklch,
+        var(--clr-footer-1),
+        var(--clr-footer-2)
+    );
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    overflow: hidden;
+
+    & > div {
+        max-inline-size: var(--max-width);
+        margin: 0 auto;
+        margin-top: var(--space-2xl);
+        padding-inline: var(--space-xs);
+
+        * {
+            font-size: var(--fs-300);
+            color: var(--clr-text-bg);
+        }
+    }
+    .footer-text {
+        padding-block: 1rem;
+    }
+}
+
+.footer::after {
+    top: -50px;
+    display: block;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background: var(--background-color);
+    width: 120vw;
+    left: -10vw;
+    height: 10dvh;
+    box-shadow: 0 10px var(--clr-text-bg);
+}

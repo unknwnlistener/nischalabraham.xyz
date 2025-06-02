@@ -15,7 +15,7 @@ export default function Profile() {
                         <p>Londonderry, UK🌐</p>
                     </div>
                 </div>
-                <Socials />
+                <Socials showResume />
 
                 <Skills />
             </div>

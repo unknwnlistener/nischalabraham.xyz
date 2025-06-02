@@ -3,19 +3,21 @@ import LinkedinLogo from "@/assets/LinkedinLogo";
 import TwitterXLogo from "@/assets/TwitterXLogo";
 import FileDown from "@/assets/FileDown";
 import resume from "@/assets/nischal-abraham-resume.pdf";
-export default function Socials() {
+export default function Socials({ showResume = false }) {
     return (
         <ul className="[ flex ][ center-y gap-4 ]">
-            <li>
-                <a
-                    href={resume}
-                    title="Download Resume"
-                    className="[ box ][ center-y gap-px ][ button ]"
-                >
-                    Resume
-                    <FileDown />
-                </a>
-            </li>
+            {showResume &&
+                <li>
+                    <a
+                        href={resume}
+                        title="Download Resume"
+                        className="[ box ][ center-y gap-px ][ button ]"
+                    >
+                        Resume
+                        <FileDown />
+                    </a>
+                </li>
+            }
             <div className="cluster">
                 <li>
                     <a

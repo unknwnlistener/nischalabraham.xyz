@@ -51,4 +51,7 @@
     --link-color: var(--border-color);
     --clr-card-bg-lighter: rgba(252, 255, 238, 0.064);
     --clr-card-bg-light: rgba(252, 255, 238, 0.312);
+
+    --clr-footer-1: #43a29c;
+    --clr-footer-2: #6cc7c0;
 }
