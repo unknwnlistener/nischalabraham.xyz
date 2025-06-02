@@ -1,16 +1,17 @@
 /* @link https://utopia.fyi/type/calculator?c=320,14,1.2,1200,16,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
-  /* https://modernfontstacks.com/  geometric humanist font */
-  --font-system: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-  /* monospace code font */
-  --font-system-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-  --font-system-code-size: 0.8rem;
+    /* https://modernfontstacks.com/  geometric humanist font */
+    --font-system: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+        source-sans-pro, sans-serif;
+    /* monospace code font */
+    --font-system-code: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+        Consolas, "DejaVu Sans Mono", monospace;
+    --font-system-code-size: 0.8rem;
 
-  --box-outer-radius: 10px;
-  --box-padding: 1px;
-  --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
-
+    --box-outer-radius: 10px;
+    --box-padding: 5px;
+    --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
 
     /* Sizes */
     --fs-200: clamp(0.5628rem, 0.624rem + -0.0816vw, 0.6076rem);
@@ -30,22 +31,24 @@
     --space-xl: clamp(2.625rem, 2.4886rem + 0.6818vw, 3rem);
     --space-2xl: clamp(3.5rem, 3.3182rem + 0.9091vw, 4rem);
 
-  --border-width: 0.25rem;
-  --border-radius: 0.5rem;
-  
-  --max-width: 48rem;
+    --border-width: 0.25rem;
+    --border-radius: 0.5rem;
 
-  /* Colours */
-  --color-primary: #7ed957;
-  --color-secondary: #0097b2;
-  --light: #EBD477;
-  --text-bg: #fcffee;
-  --dark: #B55E30;
-  --clr-accent: #572D42;
-  --background-color: light-dark(var(--light), var(--dark));
+    --max-width: 48rem;
 
-  --foreground-color: light-dark(var(--dark), var(--light));
-  --border-color: var(--foreground-color);
-  --link-color: var(--color-secondary);
+    /* Colours */
+    --color-primary: #7ed957;
+    --color-secondary: #0097b2;
+    --bg-light: #ebd477;
+    --clr-text-bg: #fcffee;
+    --dark: #b55e30;
+    --clr-accent: #572d42;
 
+    --background-color: light-dark(var(--bg-light), var(--dark));
+    --foreground-color: light-dark(var(--dark), var(--bg-light));
+    --border-color: #da8332;
+
+    --link-color: var(--border-color);
+    --clr-card-bg-lighter: rgba(252, 255, 238, 0.064);
+    --clr-card-bg-light: rgba(252, 255, 238, 0.312);
 }

@@ -36,7 +36,7 @@ export default function Experience() {
                     <p>{description}</p>
                     <ul className="cluster">
                         {getSkillsAsList().map((skill) => (
-                            <li className="pill" key={skill}>
+                            <li className="box pill" key={skill}>
                                 {skill}
                             </li>
                         ))}
