@@ -16,7 +16,7 @@ export default function Projects() {
                 .filter((el) => el);
         };
         return (
-            <div className="[ bg-card ][ card ]">
+            <div className="[ bg-card fancy-anchors ][ card ]">
                 <div className="project__card">
                     <h3>{title}</h3>
                     <p>{description}</p>

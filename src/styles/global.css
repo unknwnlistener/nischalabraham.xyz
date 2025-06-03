@@ -6,6 +6,7 @@
 @import "utilities/flex";
 @import "utilities/padding";
 @import "utilities/background";
+@import "utilities/anchor";
 @import "utilities/height-width";
 
 @import "compositions/stack";
@@ -72,10 +73,11 @@ a {
     text-decoration-color: var(--clr-border);
     text-underline-offset: 0.3ex;
     text-decoration-thickness: 0.3ex;
+    color: var(--clr-link);
 }
 
 a:hover {
-    color: var(--clr-link);
+    color: var(--clr-link-hover);
 }
 
 table {

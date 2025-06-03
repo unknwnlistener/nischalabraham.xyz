@@ -1,6 +1,7 @@
 export default function Codetag({ size = "36" }) {
     return (
         <svg width={size} height={size} version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+            <title>Codetags icon</title>
             <path stroke="currentColor" d="M256.005,0C114.611,0,0,114.611,0,255.996C0,397.39,114.611,512,256.005,512
         C397.39,512,512,397.39,512,255.996C512,114.611,397.39,0,256.005,0z M187.066,203.112c0,0.366-0.157,0.689-0.436,0.916
         l-72.053,53.582l72.053,53.608c0.279,0.192,0.436,0.541,0.436,0.89v33.07c0,0.41-0.201,0.776-0.532,0.968

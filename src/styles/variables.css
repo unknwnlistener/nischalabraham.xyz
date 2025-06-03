@@ -46,7 +46,8 @@
     --foreground-color: light-dark(var(--clr-text-light), var(--bg-light));
     --clr-border: #da8332;
 
-    --clr-link: var(--clr-border);
+    --clr-link: var(--clr-accent);
+    --clr-link-hover: var(--clr-link);
     --clr-card-bg-lighter: rgba(252, 255, 238, 0.064);
     --clr-card-bg-light: rgba(252, 255, 238, 0.312);
 

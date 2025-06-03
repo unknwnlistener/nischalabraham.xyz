@@ -11,7 +11,7 @@ export default function Profile() {
                 <div className="[ flex ][ center-y gap-s ]">
                     <img src={profilePic} alt="Headshot of Nischal Abraham" className="margin-top-2" />
                     <div>
-                        <p>Hey, I'm Nischal!</p>
+                        <p>Hey, I&apos;m Nischal!</p>
                         <h1>Fullstack Web Developer</h1>
                         <p className="center-y gap-2xs"><MapPin /> Londonderry, UK</p>
                     </div>
