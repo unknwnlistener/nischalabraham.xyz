@@ -3,7 +3,7 @@
     --border-width: 0;
     font-size: var(--fs-300);
     background-color: var(--clr-accent);
-    color: var(--background-color);
+    color: var(--clr-bg);
 
     &:not(:has(svg)) {
         padding: 0.1rem 0.75rem;
@@ -13,5 +13,10 @@
         --size: var(--fs-500);
         width: var(--size);
         height: var(--size);
+    }
+
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover {
+        transform: translateY(-5px);
     }
 }

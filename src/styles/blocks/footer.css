@@ -19,7 +19,7 @@
         padding-inline: var(--space-xs);
 
         * {
-            font-size: var(--fs-300);
+            font-size: var(--fs-400);
             color: var(--clr-text-bg);
         }
     }
@@ -34,7 +34,7 @@
     position: absolute;
     content: "";
     border-radius: 50%;
-    background: var(--background-color);
+    background: var(--clr-bg);
     width: 120vw;
     left: -10vw;
     height: 10dvh;

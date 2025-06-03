@@ -9,7 +9,7 @@ import MysqlLogo from "@/assets/MysqlLogo";
 export default function Skills() {
     const ListItem = ({ Icon = CodetagIcon, title }) => {
         return (
-            <li className="box [ gap-2 center-y padding-x-3 padding-y-2 ] pill">
+            <li className="box [ gap-s center-y padding-x-xs padding-y-2xs ] pill">
                 <Icon />
                 {title}
             </li>

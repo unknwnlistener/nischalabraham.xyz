@@ -6,6 +6,7 @@
 @import "utilities/flex";
 @import "utilities/padding";
 @import "utilities/background";
+@import "utilities/anchor";
 @import "utilities/height-width";
 
 @import "compositions/stack";
@@ -29,7 +30,7 @@
 
     color-scheme: light dark;
     color: var(--foreground-color);
-    background-color: var(--background-color);
+    background-color: var(--clr-bg);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -42,7 +43,7 @@ body {
     overflow-x: hidden;
     padding: 1rem;
     padding-bottom: 0;
-    background-color: var(--background-color);
+    background-color: var(--clr-bg);
     color: var(--foreground-color);
     margin: 0 auto;
     max-inline-size: var(--max-width);
@@ -69,13 +70,14 @@ h3 {
 a {
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: var(--link-color);
+    text-decoration-color: var(--clr-border);
     text-underline-offset: 0.3ex;
     text-decoration-thickness: 0.3ex;
+    color: var(--clr-link);
 }
 
 a:hover {
-    color: var(--link-color);
+    color: var(--clr-link-hover);
 }
 
 table {
@@ -84,6 +86,12 @@ table {
 
 th {
     text-align: left;
+}
+
+p svg,
+a svg {
+    height: 2em;
+    width: 2em;
 }
 
 @media (min-width: 960px) {

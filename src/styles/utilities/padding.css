@@ -2,22 +2,22 @@
     padding: 1px;
 }
 
-.padding-2 {
+.padding-2xs {
     padding: var(--space-2xs);
 }
 
-.padding-3 {
+.padding-xs {
     padding: var(--space-xs);
 }
 
-.padding-4 {
+.padding-s {
     padding: var(--space-s);
 }
 
-.padding-x-3 {
+.padding-x-xs {
     padding-inline: var(--space-xs);
 }
 
-.padding-y-2 {
+.padding-y-2xs {
     padding-block: var(--space-2xs);
 }

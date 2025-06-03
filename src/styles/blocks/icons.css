@@ -30,5 +30,5 @@
 }
 
 .icon.monochrome:hover {
-    color: var(--link-color);
+    color: var(--clr-link-hover);
 }
