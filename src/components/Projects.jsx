@@ -41,7 +41,7 @@ export default function Projects() {
                                     className="icon monochrome"
                                 >
                                     <Globe />
-                                    Site
+                                    Live
                                 </a>
                             )}
                         </li>

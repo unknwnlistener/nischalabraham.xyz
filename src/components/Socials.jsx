@@ -11,7 +11,7 @@ export default function Socials({ showResume = false }) {
                     <a
                         href={resume}
                         title="Download Resume"
-                        className="[ box ][ center-y gap-px ][ button ]"
+                        className="[ box ][ center-y gap-3xs ][ button ]"
                     >
                         Resume
                         <FileDown />

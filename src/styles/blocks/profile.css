@@ -18,8 +18,6 @@
 
     img {
         --small-pic-size: 100px;
-        /* top: clamp(0px, var(--c)*-1000, 10px);
-    right: clamp(0px, var(--c)*-1000, 20px); */
         aspect-ratio: 1;
         width: clamp(var(--small-pic-size), var(--c) * 1000, 100px);
         height: clamp(var(--small-pic-size), var(--c) * 1000, 100%);
@@ -30,6 +28,10 @@
 
     ul {
         font-size: var(--fs-400);
+        a.button svg {
+            width: 1.5em;
+            height: 1.5em;
+        }
     }
     h2 {
         font-size: var(--fs-500);

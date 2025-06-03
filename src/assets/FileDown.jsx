@@ -5,6 +5,7 @@ export default function FileDown({ className = "" }) {
             width={24}
             height={24}
             fill="none"
+            viewBox="0 0 24 24"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"

@@ -86,9 +86,10 @@ th {
     text-align: left;
 }
 
-p svg {
-    height: 1.5em;
-    width: 1.5em;
+p svg,
+a svg {
+    height: 2em;
+    width: 2em;
 }
 
 @media (min-width: 960px) {
