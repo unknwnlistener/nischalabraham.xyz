@@ -34,7 +34,7 @@
     position: absolute;
     content: "";
     border-radius: 50%;
-    background: var(--background-color);
+    background: var(--clr-bg);
     width: 120vw;
     left: -10vw;
     height: 10dvh;

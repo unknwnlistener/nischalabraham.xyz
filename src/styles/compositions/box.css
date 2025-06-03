@@ -1,5 +1,5 @@
 .box {
     border: var(--border-width, 1px) solid;
-    border-color: var(--border-color);
+    border-color: var(--clr-border);
     border-radius: var(--border-radius);
 }

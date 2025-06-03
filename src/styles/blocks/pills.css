@@ -3,7 +3,7 @@
     --border-width: 0;
     font-size: var(--fs-300);
     background-color: var(--clr-accent);
-    color: var(--background-color);
+    color: var(--clr-bg);
 
     &:not(:has(svg)) {
         padding: 0.1rem 0.75rem;
