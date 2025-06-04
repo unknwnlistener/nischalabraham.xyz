@@ -8,11 +8,12 @@
 @import "utilities/background";
 @import "utilities/anchor";
 @import "utilities/height-width";
+@import "utilities/box";
+@import "utilities/bg-chat";
 
 @import "compositions/stack";
 @import "compositions/splitter";
 @import "compositions/cluster";
-@import "compositions/box";
 
 @import "blocks/navbar";
 @import "blocks/buttons";
@@ -29,7 +30,7 @@
     font-family: var(--font-system);
 
     color-scheme: light dark;
-    color: var(--foreground-color);
+    color: var(--clr-fg);
     background-color: var(--clr-bg);
 
     font-synthesis: none;
@@ -44,7 +45,7 @@ body {
     padding: 1rem;
     padding-bottom: 0;
     background-color: var(--clr-bg);
-    color: var(--foreground-color);
+    color: var(--clr-fg);
     margin: 0 auto;
     max-inline-size: var(--max-width);
 }

@@ -1,5 +1,5 @@
 .fancycard {
-    color: var(--foreground-color);
+    color: var(--clr-fg);
     padding: var(--box-padding);
     background-color: var(--clr-border);
     max-inline-size: 20rem;
@@ -62,7 +62,7 @@
 }
 
 .card {
-    color: var(--foreground-color);
+    color: var(--clr-fg);
     padding: var(--box-padding);
     border: var(--border-width, 1px) solid var(--clr-border);
     /* max-inline-size: 20rem; */

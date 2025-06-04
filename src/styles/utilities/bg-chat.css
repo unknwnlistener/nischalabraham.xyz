@@ -1,0 +1,33 @@
+.bg-chat {
+    --clr-bg-chat: light-dark(var(--clr-text-bg), var(--clr-bg));
+    --clr-border-chat: light-dark(transparent, var(--clr-border));
+    --size: 1.8rem;
+    position: relative;
+    border-radius: var(--border-radius, 0.25rem);
+    background-color: var(--clr-bg-chat);
+    border: calc(var(--border-width) + 1px) solid var(--clr-border-chat);
+
+    &.point-left::after {
+        position: absolute;
+        top: calc(50% + var(--space-m));
+        content: "";
+        left: calc(var(--size) * -1);
+        height: var(--size);
+        width: var(--size);
+        border-right: calc(var(--size) / 2) solid var(--clr-bg-chat);
+        border-block: calc(var(--size) / 2) solid transparent;
+    }
+
+    &.point-left::before {
+        content: "";
+        position: absolute;
+        top: calc(50% + var(--space-m) - 2px);
+        left: calc((var(--size) * -1) - (var(--border-width)));
+        height: var(--size);
+        width: var(--size);
+        border-right: calc((var(--size) + var(--border-width)) / 2) solid
+            var(--clr-border-chat);
+        border-block: calc((var(--size) + var(--border-width)) / 2) solid
+            transparent;
+    }
+}

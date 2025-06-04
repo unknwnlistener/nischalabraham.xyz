@@ -3,5 +3,5 @@
 }
 
 .bg-card {
-    background-color: var(--clr-text-bg);
+    background-color: light-dark(var(--clr-text-bg), var(--clr-bg));
 }
