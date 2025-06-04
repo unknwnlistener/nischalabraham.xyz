@@ -1,13 +1,11 @@
-.fancy-anchors {
-    a {
-        text-decoration-skip-ink: none;
-        transition: all 0.3s;
+.fancy-anchors a {
+    text-decoration-skip-ink: none;
+    transition: all 0.3s;
 
-        &:hover,
-        &:focus {
-            color: var(--clr-link-hover);
-            text-underline-offset: -2ex;
-            text-decoration-thickness: 2.5ex;
-        }
+    &:hover,
+    &:focus {
+        color: var(--clr-link-hover);
+        text-underline-offset: -2ex;
+        text-decoration-thickness: 2.5ex;
     }
 }
