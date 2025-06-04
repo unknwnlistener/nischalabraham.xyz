@@ -19,7 +19,7 @@ export default function Experience() {
             return skillsList.split(",").map((el) => el.trim());
         };
         return (
-            <li className="experience-block">
+            <li className="[ padding-s ][ experience-block ]">
                 <div>
                     <time dateTime={getDateString(startDate)}>
                         {getMonthYear(startDate)}
@@ -48,7 +48,7 @@ export default function Experience() {
     return (
         <article>
             <h2>Experience</h2>
-            <ul className="stack">
+            <ul className="[ stack box ][ bg-card ]">
                 <ExperienceListItem
                     company={"Postal Bible School"}
                     title={

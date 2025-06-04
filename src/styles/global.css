@@ -8,11 +8,11 @@
 @import "utilities/background";
 @import "utilities/anchor";
 @import "utilities/height-width";
+@import "utilities/box";
 
 @import "compositions/stack";
 @import "compositions/splitter";
 @import "compositions/cluster";
-@import "compositions/box";
 
 @import "blocks/navbar";
 @import "blocks/buttons";
