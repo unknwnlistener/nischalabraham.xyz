@@ -11,7 +11,7 @@
 
 .theme-mode-toggle:hover {
     background-color: var(--clr-text-bg);
-    --foreground-color: var(--clr-text-light);
+    --clr-fg: var(--clr-text-light);
 }
 
 .theme-mode-toggle:active {

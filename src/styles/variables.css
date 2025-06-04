@@ -38,18 +38,23 @@
 
     /* Colours */
     --bg-light: #ebd477;
+    --bg-dark: #273248;
+    --accent-light: #572d42;
+    --accent-dark: #ffebd2;
+
     --clr-text-bg: #fcffee;
     --clr-text-light: #b55e30;
-    --clr-accent: #572d42;
 
-    --clr-bg: light-dark(var(--bg-light), var(--clr-text-light));
-    --foreground-color: light-dark(var(--clr-text-light), var(--bg-light));
+    --clr-bg: light-dark(var(--bg-light), var(--bg-dark));
+    --clr-fg: light-dark(var(--clr-text-light), var(--bg-light));
+    --clr-accent: light-dark(var(--accent-light), var(--accent-dark));
     --clr-border: #da8332;
 
     --clr-link: var(--clr-accent);
-    --clr-link-hover: var(--clr-link);
+    --clr-link-hover: var(--clr-accent);
     --clr-card-bg-lighter: rgba(252, 255, 238, 0.064);
-    --clr-card-bg-light: rgba(252, 255, 238, 0.312);
+    --clr-card-bg-light: rgba(252, 255, 238, 0.2);
+    --clr-card-bg-dark: rgba(39, 50, 72, 0.5);
 
     --clr-footer-1: #43a29c;
     --clr-footer-2: #6cc7c0;
