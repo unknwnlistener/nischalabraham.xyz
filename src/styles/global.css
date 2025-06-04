@@ -9,6 +9,7 @@
 @import "utilities/anchor";
 @import "utilities/height-width";
 @import "utilities/box";
+@import "utilities/bg-chat";
 
 @import "compositions/stack";
 @import "compositions/splitter";
