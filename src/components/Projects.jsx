@@ -58,7 +58,7 @@ export default function Projects() {
         );
     };
     return (
-        <article>
+        <article id="projects">
             <h2>Projects</h2>
             <div className="grid cards-block">
                 <ProjectListItem

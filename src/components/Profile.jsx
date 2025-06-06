@@ -6,7 +6,7 @@ import MapPin from "../assets/MapPin";
 
 export default function Profile() {
     return (
-        <section className="[ center-y margin-top-4 ][ profile ]">
+        <section id="about" className="[ center-y margin-top-4 ][ profile ]">
             <div>
                 <div className="[ flex ][ center-y gap-s ]">
                     <img src={profilePic} alt="Headshot of Nischal Abraham" className="margin-top-2" />

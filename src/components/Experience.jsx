@@ -46,7 +46,7 @@ export default function Experience() {
         );
     };
     return (
-        <article>
+        <article id="experience">
             <h2>Experience</h2>
             <ul className="[ stack box ][ bg-card ]">
                 <ExperienceListItem
