@@ -1,6 +1,6 @@
 .fancy-anchors a {
     text-decoration-skip-ink: none;
-    transition: all 0.3s;
+    transition: all var(--transition-time);
 
     &:hover,
     &:focus {
