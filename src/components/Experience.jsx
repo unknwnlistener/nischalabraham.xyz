@@ -57,21 +57,21 @@ export default function Experience() {
                     startDate={"2022-08"}
                     endDate={"2024-12"}
                     description={
-                        "Redesigned and migrated the primary website from WordPress to React, enhancing user experience and reducing pages by 60%. Led the development of a digital learning management system (LMS), utilizing React, PHP and Moodle to streamline access for 3000+ students.  Managed cloud server deployment on Cloudways, utilizing GitHub Actions for automated CI/CD workflows."
+                        "I redesigned the existing paper system to a digital solution, providing a learning management system (LMS) to be used by over 3000 students which was built using React and Laravel."
                     }
                     skillsList={
-                        "Laravel, PHP, React, Typescript, Cypress, Jest"
+                        "React, Typescript, Tailwind, Laravel, PHP, Cypress, Jest"
                     }
                 />
                 <ExperienceListItem
                     company={"Media.net(Perform Media)"}
-                    title={"Web Application Developer"}
+                    title={"Web Application Developer."}
                     startDate={"2017-07"}
                     endDate={"2019-08"}
                     description={
-                        "Improved report access time for publishers by 32% by optimizing Excel and CSV file imports, implementing custom parsing algorithms, and utilizing advanced data processing techniques. Successfully transitioned CI technology from Apache SVN to Git, leading training sessions and creating documentation that reduced collaborative errors."
+                        "I worked with a core team of 13 people as a frontend developer, developing a statistics dashboard for our advertising partners."
                     }
-                    skillsList={"HTML, CSS, JavaScript, Angular, ASP.NET, Git"}
+                    skillsList={"Angular, ASP.NET, SVN, Git"}
                 />
             </ul>
         </article>
