@@ -6,7 +6,7 @@ a.button {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    transition: color var(--transition-time) var(--transition-time);
+    /* transition: color var(--transition-time) var(--transition-time); */
 
     &::before {
         content: "";
@@ -18,11 +18,12 @@ a.button {
         height: 100%;
         z-index: -1;
         transform: scaleY(0);
+        background-color: var(--clr-border);
     }
     &:hover {
-        color: #fff;
+        color: var(--clr-accent);
         &::before {
-            transform: scaleY(1);
+            transform: scaleY(1.1);
         }
     }
 }
