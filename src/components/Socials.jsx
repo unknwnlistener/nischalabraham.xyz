@@ -5,7 +5,7 @@ import FileDown from "@/assets/FileDown";
 import resume from "@/assets/nischal-abraham-resume.pdf";
 export default function Socials({ showResume = false }) {
     return (
-        <ul className="[ flex ][ center-y gap-m ]">
+        <ul className="[ flex ][ center-y gap-m ][ highlight-active-hover ]">
             {showResume &&
                 <li>
                     <a

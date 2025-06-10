@@ -14,15 +14,4 @@
         width: var(--size);
         height: var(--size);
     }
-
-    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-    &:hover {
-        transform: translateY(-5px);
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .pill:hover {
-        transform: translateY(0);
-    }
 }

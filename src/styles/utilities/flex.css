@@ -18,6 +18,10 @@
     gap: var(--space-2xs);
 }
 
+.gap-xs {
+    gap: var(--space-xs);
+}
+
 .gap-s {
     gap: var(--space-s);
 }

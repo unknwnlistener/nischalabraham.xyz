@@ -21,6 +21,13 @@ export default function Projects() {
                     <h3>{title}</h3>
                     <p>{description}</p>
                     <ul className="cluster">
+                        {getSkillsAsList().map((skill) => (
+                            <li className="box pill" key={skill}>
+                                {skill}
+                            </li>
+                        ))}
+                    </ul>
+                    <ul className="flex gap-2xs highlight-active-hover">
                         <li>
                             {githubLink && (
                                 <a
@@ -46,25 +53,18 @@ export default function Projects() {
                             )}
                         </li>
                     </ul>
-                    <ul className="cluster">
-                        {getSkillsAsList().map((skill) => (
-                            <li className="box pill" key={skill}>
-                                {skill}
-                            </li>
-                        ))}
-                    </ul>
                 </div>
             </div>
         );
     };
     return (
-        <article>
+        <article id="projects">
             <h2>Projects</h2>
             <div className="grid cards-block">
                 <ProjectListItem
                     title={"Postal Bible School"}
                     description={
-                        "Landing page with Auth and LMS functionality"
+                        "Correspondence education platform website with Auth and LMS functionality"
                     }
                     techList={"React, Typescript, Laravel, Auth0, Cloudways"}
                     externalLink="https://postalbibleschool.ie"

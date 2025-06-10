@@ -13,6 +13,8 @@
     --box-padding: 5px;
     --box-inner-radius: calc(var(--box-outer-radius) - var(--box-padding));
 
+    --transition-time: 0.35s;
+
     /* Sizes */
     --fs-200: clamp(0.5628rem, 0.624rem + -0.0816vw, 0.6076rem);
     --fs-300: clamp(0.7292rem, 0.7215rem + 0.0382vw, 0.7502rem);

@@ -17,7 +17,7 @@ export default function Skills() {
     };
     return (
         <article>
-            <h2>Skills</h2>
+            <h3>Skills</h3>
             <ul className="cluster">
                 <ListItem title="HTML & CSS" />
                 <ListItem title="Javascript" Icon={JsLogo} />
