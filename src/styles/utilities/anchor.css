@@ -10,7 +10,7 @@
     }
 }
 
-.list-hover {
+.highlight-active-hover {
     width: fit-content;
     opacity: 1;
     &:hover a:not(:hover),
