@@ -51,9 +51,7 @@ export default function Experience() {
             <ul className="[ stack box ][ bg-card ]">
                 <ExperienceListItem
                     company={"Postal Bible School"}
-                    title={
-                        "Information and Communications Technology (ICT) Manager"
-                    }
+                    title={"Fullstack Web Developer and ICT Manager"}
                     startDate={"2022-08"}
                     endDate={"2024-12"}
                     description={
@@ -65,7 +63,7 @@ export default function Experience() {
                 />
                 <ExperienceListItem
                     company={"Media.net(Perform Media)"}
-                    title={"Web Application Developer."}
+                    title={"Web Application Developer"}
                     startDate={"2017-07"}
                     endDate={"2019-08"}
                     description={
