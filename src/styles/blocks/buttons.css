@@ -23,7 +23,7 @@ a.button {
     &:hover {
         color: var(--clr-accent);
         &::before {
-            transform: scaleY(1.1);
+            transform: scaleY(1);
         }
     }
 }

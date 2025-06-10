@@ -27,7 +27,6 @@
     background-color: initial;
     justify-content: center;
     color: var(--clr-fg);
-    transition: color var(--transition-time);
 }
 
 .icon.monochrome:hover {

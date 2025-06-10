@@ -9,3 +9,20 @@
         text-decoration-thickness: 2.5ex;
     }
 }
+
+.list-hover {
+    width: fit-content;
+    opacity: 1;
+    &:hover a:not(:hover),
+    &:focus-within a:not(:focus) {
+        opacity: 0.6;
+    }
+    a {
+        scale: 1;
+        transition: all var(--transition-time);
+        &:hover,
+        &:focus {
+            scale: 1.1;
+        }
+    }
+}
